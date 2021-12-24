@@ -38,6 +38,7 @@ public class CategoryController {
         }
         categoryService.edit(categoryId, updateCategory);
         return new ResponseEntity<ApiResponse>(new ApiResponse(true, "category has been updated"), HttpStatus.OK);
+
     }
 
 }
